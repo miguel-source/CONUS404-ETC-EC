@@ -1,0 +1,117 @@
+{
+  "figure": "S5_storm_window_sampling",
+  "id": "S5",
+  "title": "Storm-window sampling",
+  "caption": "Figure S5. We show the UTC calendar-day records contributing to the pooled gridded analysis for each tropical cyclone. Day zero is the first core-window day for the storm; the date ranges at right identify the core intervals. Green and brown squares show core and expanded analysis dates, respectively. Counts at right give retained unique dates for each storm. The archive contains 128 storm\u2013day records, including two records for 4 September 2017. Following the study's all-windows policy, we retained the first EVENTS-order copy and omitted the duplicate expanded record, shown as an open circle, yielding 78 unique core days and 127 unique expanded days. These are pooled storm calendar windows; they do not classify physical storm cores, rainbands, or local impact periods at every pixel. Daily finite, nonnegative matching and cell eligibility were subsequently applied.",
+  "caption_md": "S5_storm_window_sampling/caption.md",
+  "metadata": "S5_storm_window_sampling/metadata.json",
+  "files": {
+    "png": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.png",
+    "tif": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.tif",
+    "pdf": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.pdf",
+    "svg": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.svg"
+  },
+  "preview": "S5_storm_window_sampling/preview.png",
+  "dpi": 600,
+  "font": "Times New Roman",
+  "figure_inches": [
+    16.0,
+    9.2
+  ],
+  "palette": [
+    "#A6611A",
+    "#DFC27D",
+    "#F5F5F5",
+    "#80CDC1",
+    "#238B78",
+    "#01665E"
+  ],
+  "statistics": [
+    {
+      "storm": "Matthew",
+      "storm_id": "AL142016",
+      "core_days": 8,
+      "expanded_days": 13,
+      "core_start": "2016-10-05",
+      "core_end": "2016-10-12"
+    },
+    {
+      "storm": "Harvey",
+      "storm_id": "AL092017",
+      "core_days": 12,
+      "expanded_days": 17,
+      "core_start": "2017-08-23",
+      "core_end": "2017-09-03"
+    },
+    {
+      "storm": "Irma",
+      "storm_id": "AL112017",
+      "core_days": 7,
+      "expanded_days": 11,
+      "core_start": "2017-09-08",
+      "core_end": "2017-09-14"
+    },
+    {
+      "storm": "Florence",
+      "storm_id": "AL062018",
+      "core_days": 9,
+      "expanded_days": 14,
+      "core_start": "2018-09-12",
+      "core_end": "2018-09-20"
+    },
+    {
+      "storm": "Imelda",
+      "storm_id": "AL112019",
+      "core_days": 6,
+      "expanded_days": 11,
+      "core_start": "2019-09-16",
+      "core_end": "2019-09-21"
+    },
+    {
+      "storm": "Laura",
+      "storm_id": "AL132020",
+      "core_days": 6,
+      "expanded_days": 11,
+      "core_start": "2020-08-25",
+      "core_end": "2020-08-30"
+    },
+    {
+      "storm": "Zeta",
+      "storm_id": "AL282020",
+      "core_days": 5,
+      "expanded_days": 10,
+      "core_start": "2020-10-27",
+      "core_end": "2020-10-31"
+    },
+    {
+      "storm": "Eta",
+      "storm_id": "AL292020",
+      "core_days": 9,
+      "expanded_days": 14,
+      "core_start": "2020-11-07",
+      "core_end": "2020-11-15"
+    },
+    {
+      "storm": "Ida",
+      "storm_id": "AL092021",
+      "core_days": 9,
+      "expanded_days": 14,
+      "core_start": "2021-08-27",
+      "core_end": "2021-09-04"
+    },
+    {
+      "storm": "Ian",
+      "storm_id": "AL092022",
+      "core_days": 7,
+      "expanded_days": 12,
+      "core_start": "2022-09-26",
+      "core_end": "2022-10-02"
+    }
+  ],
+  "data": "S5_storm_window_sampling/figure_data.csv",
+  "source_estimates_modified": false,
+  "png": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.png",
+  "tif": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.tif",
+  "pdf": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.pdf",
+  "svg": "S5_storm_window_sampling/S5_storm_window_sampling_600dpi.svg"
+}

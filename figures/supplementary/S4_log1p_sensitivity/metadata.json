@@ -1,0 +1,65 @@
+{
+  "figure": "S4_log1p_sensitivity",
+  "id": "S4",
+  "title": "Sensitivity of estimated latent R\u00b2 to log1p transformation",
+  "caption": "Figure S4. We evaluated transformation sensitivity by comparing estimated latent-signal R\u00b2 from raw precipitation with estimates from log1p-transformed precipitation for CONUS404 and CONUS404BA in core and expanded windows. We used identical cells satisfying full admissibility in both triplets under both transformations; no bootstrap screening was applied. Each point is a grid cell and diamonds mark watershed-area-weighted means. The dashed line marks equal numerical R\u00b2. The transformations define different statistical representations of precipitation and associated latent signals, so departures from the diagonal show sensitivity rather than an accuracy improvement. We compare dimensionless R\u00b2 values, not raw error SD in mm day\u207b\u00b9 against transformed-unit error SD.",
+  "caption_md": "S4_log1p_sensitivity/caption.md",
+  "metadata": "S4_log1p_sensitivity/metadata.json",
+  "files": {
+    "png": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.png",
+    "tif": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.tif",
+    "pdf": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.pdf",
+    "svg": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.svg"
+  },
+  "preview": "S4_log1p_sensitivity/preview.png",
+  "dpi": 600,
+  "font": "Times New Roman",
+  "figure_inches": [
+    14.0,
+    11.5
+  ],
+  "palette": [
+    "#A6611A",
+    "#DFC27D",
+    "#F5F5F5",
+    "#80CDC1",
+    "#238B78",
+    "#01665E"
+  ],
+  "statistics": [
+    {
+      "window": "core",
+      "product": "conus404",
+      "common_cells": 293,
+      "weighted_raw_r2": 0.5488321058758845,
+      "weighted_log1p_r2": 0.6410840353274944
+    },
+    {
+      "window": "expanded",
+      "product": "conus404",
+      "common_cells": 367,
+      "weighted_raw_r2": 0.4919257701320608,
+      "weighted_log1p_r2": 0.5671341520307237
+    },
+    {
+      "window": "core",
+      "product": "conus404ba",
+      "common_cells": 293,
+      "weighted_raw_r2": 0.5288077068004156,
+      "weighted_log1p_r2": 0.6340323525248643
+    },
+    {
+      "window": "expanded",
+      "product": "conus404ba",
+      "common_cells": 367,
+      "weighted_raw_r2": 0.47840320252353097,
+      "weighted_log1p_r2": 0.5608469124138817
+    }
+  ],
+  "data": "S4_log1p_sensitivity/figure_data.csv",
+  "source_estimates_modified": false,
+  "png": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.png",
+  "tif": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.tif",
+  "pdf": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.pdf",
+  "svg": "S4_log1p_sensitivity/S4_log1p_sensitivity_600dpi.svg"
+}

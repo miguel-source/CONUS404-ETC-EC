@@ -1,0 +1,63 @@
+{
+  "figure": "S2_selection_subsets",
+  "id": "S2",
+  "title": "Spatial subsets used in collocation comparisons",
+  "caption": "Figure S2. We compared the spatial subsets used for the primary paired EC analysis and the common-cell triplet summaries during (a) core and (b) expanded windows. Paired EC cells satisfy primary model-block admissibility and at least 90% admissible bootstrap draws; valid reference-product diagnostic variances are not required. Common-triplet cells satisfy full admissibility in both CONUS404\u2013MRMS\u2013PERSIANN-CDR and CONUS404BA\u2013MRMS\u2013PERSIANN-CDR triplets, without bootstrap screening. Colors distinguish membership in the two subsets. These are separate selection criteria, rather than consecutive stages of a single screening procedure. White is outside the center-selected study domain. Boundaries, grid, compass, and scale bars follow Figure S1. The exported data provide both selection masks and category codes.",
+  "caption_md": "S2_selection_subsets/caption.md",
+  "metadata": "S2_selection_subsets/metadata.json",
+  "files": {
+    "png": "S2_selection_subsets/S2_selection_subsets_600dpi.png",
+    "tif": "S2_selection_subsets/S2_selection_subsets_600dpi.tif",
+    "pdf": "S2_selection_subsets/S2_selection_subsets_600dpi.pdf",
+    "svg": "S2_selection_subsets/S2_selection_subsets_600dpi.svg"
+  },
+  "preview": "S2_selection_subsets/preview.png",
+  "dpi": 600,
+  "font": "Times New Roman",
+  "figure_inches": [
+    16.0,
+    6.9
+  ],
+  "palette": [
+    "#A6611A",
+    "#DFC27D",
+    "#F5F5F5",
+    "#80CDC1",
+    "#238B78",
+    "#01665E"
+  ],
+  "statistics": [
+    {
+      "window": "core",
+      "paired_ec_cells": 527,
+      "common_triplet_cells": 314,
+      "paired_ec_coverage_percent": 70.80526341814193,
+      "common_triplet_coverage_percent": 42.267707705840515,
+      "category_counts": {
+        "0": 77,
+        "1": 292,
+        "2": 79,
+        "3": 235
+      }
+    },
+    {
+      "window": "expanded",
+      "paired_ec_cells": 660,
+      "common_triplet_cells": 382,
+      "paired_ec_coverage_percent": 89.24568883886795,
+      "common_triplet_coverage_percent": 51.46565541639575,
+      "category_counts": {
+        "0": 2,
+        "1": 299,
+        "2": 21,
+        "3": 361
+      }
+    }
+  ],
+  "data": "S2_selection_subsets/figure_data.csv",
+  "source_estimates_modified": false,
+  "png": "S2_selection_subsets/S2_selection_subsets_600dpi.png",
+  "tif": "S2_selection_subsets/S2_selection_subsets_600dpi.tif",
+  "pdf": "S2_selection_subsets/S2_selection_subsets_600dpi.pdf",
+  "svg": "S2_selection_subsets/S2_selection_subsets_600dpi.svg"
+}

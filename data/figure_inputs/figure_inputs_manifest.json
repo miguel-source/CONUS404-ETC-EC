@@ -1,0 +1,58 @@
+{
+  "title": "Exact saved inputs for supplemental figure reproduction",
+  "format": "NumPy NPZ arrays with JSON dimensions and only units/calendar attributes; allow_pickle=False",
+  "inputs": {
+    "ec": "ec.npz",
+    "agreement": "agreement.npz",
+    "daily": "daily.npz",
+    "triplet_a_raw": "triplet_a_raw.npz",
+    "triplet_b_raw": "triplet_b_raw.npz",
+    "triplet_a_log": "triplet_a_log.npz",
+    "triplet_b_log": "triplet_b_log.npz",
+    "boundaries": "map_boundaries.gpkg"
+  },
+  "source_provenance": {
+    "ec": {
+      "original_filename": "gridded_extended_collocation_all_windows.nc",
+      "original_sha256": "875a36c7dd7a4dde66ab1cd3784a5cfecbe434387f6920aba8c0d7aaf288f372",
+      "bundle_sha256": "179cf0d6a4e9d97f3d8dfc3d6d3f4252e3638eca9a93c872eb3a01f832857835"
+    },
+    "agreement": {
+      "original_filename": "gridded_dataset_agreement.nc",
+      "original_sha256": "f3c4a57041029751c368309ec5273c270cf778f0668eff6613cc9f05d65b2d6d",
+      "bundle_sha256": "bced8231e957714d559ad60deb2ddc8d4489086c690b83adaf7ccf1ef3117f36"
+    },
+    "daily": {
+      "original_filename": "hurricane_daily_all4_persiann_grid.nc",
+      "original_sha256": "8098b831263f7aa8e49f67f8051c6cfa9e4e5fdca72a14c76f90ea8956a38891",
+      "bundle_sha256": "163eb750d6b706c10f1dc6ed277f2aacdff448a03623cfee33564b71b2b5ed3d"
+    },
+    "triplet_a_raw": {
+      "original_filename": "triplet_error_estimates_raw.nc",
+      "original_sha256": "a175099799e4b4204a1a7dffcd91caa81cde06345a5f054622b07eed8df5b4e8",
+      "bundle_sha256": "bc98cd86d567c9cb8df089d3dc4ec59a0272cd14d46530fabcfe31dbc39f6c1b"
+    },
+    "triplet_b_raw": {
+      "original_filename": "triplet_error_estimates_raw.nc",
+      "original_sha256": "c86387a1a62cb08e6be3165767750505c743889e2e71e131642588771e5f765c",
+      "bundle_sha256": "9472dc80509238f787d2d4272bd0b7dc909c33f1fd232b5f2bc54e713ce3a317"
+    },
+    "triplet_a_log": {
+      "original_filename": "triplet_error_estimates_log1p.nc",
+      "original_sha256": "c91cfb0fa567d5025a6349877910d08df54c199da0da7fa607da81b704e063f7",
+      "bundle_sha256": "446b7affeb8358045f7ea51463bebcd22a048496ff333cc7e4a02f53d788b90a"
+    },
+    "triplet_b_log": {
+      "original_filename": "triplet_error_estimates_log1p.nc",
+      "original_sha256": "d3890c481d4ce42a732e7e766dba7955afa4091349b15c5b4330602e5e706181",
+      "bundle_sha256": "5be8cb440c20037ef52f0e75b99b25108cf09b013f18c8af6ab1776f71b75f3b"
+    },
+    "boundaries": {
+      "original_filename": "map_boundaries.gpkg",
+      "original_sha256": "4495bd982858300a1d3fb07d98179bee94470d2141b26aeb27c71e7adf24cf18",
+      "bundle_sha256": "4495bd982858300a1d3fb07d98179bee94470d2141b26aeb27c71e7adf24cf18"
+    }
+  },
+  "contains_raw_daily_precipitation": false,
+  "scope": "Derived figure inputs only; reproduce the plots, not the original data extraction or 5000-draw inference"
+}

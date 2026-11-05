@@ -1,0 +1,144 @@
+{
+  "description": "We reproduced the saved direct daily bias and RMSE summaries with the portable routine. This verifies software reproduction, not independent precipitation truth.",
+  "source_data_basename": "hurricane_daily_all4_persiann_grid.nc",
+  "source_data_sha256": "8098b831263f7aa8e49f67f8051c6cfa9e4e5fdca72a14c76f90ea8956a38891",
+  "benchmark_summary_sha256": "ebc3dff5532609bea7ca09d8b67893da9f0c419ec6879d25c113507bcfa80da6",
+  "comparisons": [
+    {
+      "window": "core",
+      "pair": "conus404_minus_mrms",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": 0.012689489138697567,
+      "recomputed": 0.012689489138697567,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "core",
+      "pair": "conus404_minus_mrms",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 14.709888383971077,
+      "recomputed": 14.709888383971077,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "core",
+      "pair": "conus404_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": 1.7268206526556003,
+      "recomputed": 1.7268206526556003,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "core",
+      "pair": "conus404_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 16.76549159496815,
+      "recomputed": 16.76549159496815,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "core",
+      "pair": "conus404ba_minus_mrms",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": 0.19134070006172121,
+      "recomputed": 0.19134070006172121,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "core",
+      "pair": "conus404ba_minus_mrms",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 15.630355925779273,
+      "recomputed": 15.630355925779273,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "core",
+      "pair": "conus404ba_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": 1.905471863578624,
+      "recomputed": 1.905471863578624,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "core",
+      "pair": "conus404ba_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 17.525015290979212,
+      "recomputed": 17.525015290979212,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404_minus_mrms",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": -0.11903528062248701,
+      "recomputed": -0.11903528062248701,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404_minus_mrms",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 12.655920371475661,
+      "recomputed": 12.655920371475661,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": 0.9762173206495272,
+      "recomputed": 0.9762173206495272,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 14.18785803606019,
+      "recomputed": 14.18785803606019,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404ba_minus_mrms",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": 0.016390066990980903,
+      "recomputed": 0.016390066990980903,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404ba_minus_mrms",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 13.372189466670253,
+      "recomputed": 13.372189466670253,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404ba_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_bias",
+      "expected": 1.111642668262995,
+      "recomputed": 1.111642668262995,
+      "absolute_difference": 0.0
+    },
+    {
+      "window": "expanded",
+      "pair": "conus404ba_minus_persiann_cdr",
+      "metric": "area_weighted_mean_pixel_rmse",
+      "expected": 14.788536946876862,
+      "recomputed": 14.788536946876862,
+      "absolute_difference": 0.0
+    }
+  ],
+  "absolute_tolerance": 1e-12,
+  "all_passed": true,
+  "sample_eligible_cells": 683,
+  "unique_days": {
+    "core": 78,
+    "expanded": 127
+  },
+  "expanded_duplicate_dates_discarded": 1
+}

@@ -1,0 +1,19 @@
+{
+  "description": "We subset complete original HURDAT2 records without changing coordinates, statuses, times, or values.",
+  "source_archive_name": "hurdat2_atl_1851_2025.txt",
+  "source_archive_sha256": "df63fabce0ad824d20447e241bd27a2a65ae36cb2f9b62aa3caacd9171c34f11",
+  "subset_sha256": "c3201d60736fbaeeaafc8f180bb94ee43dab9821251a6d7ec03dfc3b0f5526bb",
+  "storm_ids": [
+    "AL142016",
+    "AL092017",
+    "AL112017",
+    "AL062018",
+    "AL112019",
+    "AL132020",
+    "AL282020",
+    "AL292020",
+    "AL092021",
+    "AL092022"
+  ],
+  "source": "NOAA NHC Atlantic HURDAT2, https://www.nhc.noaa.gov/data/"
+}

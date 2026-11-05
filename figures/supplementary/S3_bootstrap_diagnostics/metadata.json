@@ -1,0 +1,49 @@
+{
+  "figure": "S3_bootstrap_diagnostics",
+  "id": "S3",
+  "title": "Paired EC bootstrap diagnostics",
+  "caption": "Figure S3. We examined the fraction of admissible paired storm-block bootstrap draws (a,b) and the width of the conditional 95% bootstrap interval for the CONUS404BA\u2013CONUS404 random-error SD difference (c,d). Left and right columns show core and expanded windows. Admissible fractions are displayed for sample-eligible study cells with saved bootstrap diagnostics. Interval widths, calculated as the 97.5th minus the 2.5th percentile, are displayed only on the retained paired EC subset. Both windows use common scales for the same quantity, without clipping retained values. We used the saved 5,000-draw estimates; this figure does not rerun resampling. The intervals are conditional on admissible EC solutions and are neither simultaneous spatial confidence bands nor a domain-wide significance test. Panel means are watershed-area weighted as in Figure S1. Gray denotes cells outside each displayed subset.",
+  "caption_md": "S3_bootstrap_diagnostics/caption.md",
+  "metadata": "S3_bootstrap_diagnostics/metadata.json",
+  "files": {
+    "png": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.png",
+    "tif": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.tif",
+    "pdf": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.pdf",
+    "svg": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.svg"
+  },
+  "preview": "S3_bootstrap_diagnostics/preview.png",
+  "dpi": 600,
+  "font": "Times New Roman",
+  "figure_inches": [
+    16.0,
+    10.6
+  ],
+  "palette": [
+    "#A6611A",
+    "#DFC27D",
+    "#F5F5F5",
+    "#80CDC1",
+    "#238B78",
+    "#01665E"
+  ],
+  "statistics": [
+    {
+      "window": "core",
+      "admissible_fraction_mean_eligible": 0.9287283141295982,
+      "interval_width_mean_retained_mm_day": 3.529993997120876,
+      "interval_width_max_retained_mm_day": 27.73346436023712
+    },
+    {
+      "window": "expanded",
+      "admissible_fraction_mean_eligible": 0.9825150098878489,
+      "interval_width_mean_retained_mm_day": 2.482262927301788,
+      "interval_width_max_retained_mm_day": 21.556400775909424
+    }
+  ],
+  "data": "S3_bootstrap_diagnostics/figure_data.csv",
+  "source_estimates_modified": false,
+  "png": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.png",
+  "tif": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.tif",
+  "pdf": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.pdf",
+  "svg": "S3_bootstrap_diagnostics/S3_bootstrap_diagnostics_600dpi.svg"
+}

@@ -1,0 +1,16 @@
+{
+  "project_root": "data",
+  "results_root": "results",
+  "watersheds": "data/boundaries/study_watersheds.gpkg",
+  "states": "data/boundaries/conus_states.gpkg",
+  "hurdat_input": "data/metadata/hurdat2_selected_study_storms.txt",
+  "daily_input": "data/ETC_StormEvents/Gridded_PERSIANN/hurricane_daily_all4_persiann_grid.nc",
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 404,
+  "minimum_storms": 8,
+  "minimum_core_days": 60,
+  "minimum_expanded_days": 100,
+  "minimum_days_per_storm": 3,
+  "minimum_bootstrap_valid_fraction": 0.9,
+  "sample_mode": "all_windows"
+}

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tc-precip-collocation"
+version = "0.1.0"
+authors = [{name = "Miguel Diaz"}]
+description = "Reproducible tropical-cyclone precipitation collocation and agreement analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0", "xarray>=2024.1", "netCDF4>=1.6", "matplotlib>=3.8", "Pillow>=10", "shapely>=2", "pyproj>=3.6", "rasterio>=1.3", "geopandas>=0.14", "pyshp>=2.3", "rioxarray>=0.15"]
+
+[project.optional-dependencies]
+acquisition = ["intake<2", "intake-xarray", "dask[array]", "s3fs", "zarr<3", "numcodecs>=0.12", "cfgrib", "eccodes"]
+test = ["pytest>=8"]
+publishing = ["reportlab>=4", "pypdf>=4", "pypdfium2>=4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts", "src"]

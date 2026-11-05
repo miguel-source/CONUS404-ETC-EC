@@ -1,0 +1,13 @@
+window,triplet,product,sample_eligible_cells,nonnegative_cells,negative_cells,unavailable_cells,negative_percent_of_eligible_cells
+core,A,conus404,683,679,4,0,0.5856515373352855
+core,A,mrms,683,380,302,1,44.21669106881406
+core,A,persiann_cdr,683,658,25,0,3.6603221083455346
+core,B,conus404ba,683,676,7,0,1.0248901903367496
+core,B,mrms,683,376,306,1,44.80234260614934
+core,B,persiann_cdr,683,647,36,0,5.270863836017569
+expanded,A,conus404,683,683,0,0,0.0
+expanded,A,mrms,683,428,255,0,37.33528550512445
+expanded,A,persiann_cdr,683,661,22,0,3.22108345534407
+expanded,B,conus404ba,683,682,1,0,0.14641288433382138
+expanded,B,mrms,683,421,262,0,38.3601756954612
+expanded,B,persiann_cdr,683,662,21,0,3.074670571010249

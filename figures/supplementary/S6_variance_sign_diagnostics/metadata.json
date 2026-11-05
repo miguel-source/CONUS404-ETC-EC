@@ -1,0 +1,157 @@
+{
+  "figure": "S6_variance_sign_diagnostics",
+  "id": "S6",
+  "title": "Sign of separate-triplet error-variance estimates",
+  "caption": "Figure S6. We summarized the sign of the unmasked raw-precipitation random-error variance estimates for each product in the separate triplets during core and expanded windows. Triplet A contains CONUS404, MRMS Radar-Only QPE, and PERSIANN-CDR; triplet B replaces CONUS404 with CONUS404BA. Bar heights represent unweighted percentages of the 683 sample-eligible study cells; labels give counts. Green denotes finite nonnegative variance, brown denotes finite negative variance, and gray denotes an unavailable algebraic estimate. Negative estimates are nonphysical statistical solutions, not negative actual error variances or zero-error cells. A nonnegative estimate for one product does not establish admissibility of all three products in its triplet. The CSV includes all counts and percentages, including the single unavailable MRMS core estimate in each triplet.",
+  "caption_md": "S6_variance_sign_diagnostics/caption.md",
+  "metadata": "S6_variance_sign_diagnostics/metadata.json",
+  "files": {
+    "png": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.png",
+    "tif": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.tif",
+    "pdf": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.pdf",
+    "svg": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.svg"
+  },
+  "preview": "S6_variance_sign_diagnostics/preview.png",
+  "dpi": 600,
+  "font": "Times New Roman",
+  "figure_inches": [
+    16.0,
+    8.3
+  ],
+  "palette": [
+    "#A6611A",
+    "#DFC27D",
+    "#F5F5F5",
+    "#80CDC1",
+    "#238B78",
+    "#01665E"
+  ],
+  "statistics": [
+    {
+      "window": "core",
+      "triplet": "A",
+      "product": "conus404",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 679,
+      "negative_cells": 4,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 0.5856515373352855
+    },
+    {
+      "window": "core",
+      "triplet": "A",
+      "product": "mrms",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 380,
+      "negative_cells": 302,
+      "unavailable_cells": 1,
+      "negative_percent_of_eligible_cells": 44.21669106881406
+    },
+    {
+      "window": "core",
+      "triplet": "A",
+      "product": "persiann_cdr",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 658,
+      "negative_cells": 25,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 3.6603221083455346
+    },
+    {
+      "window": "core",
+      "triplet": "B",
+      "product": "conus404ba",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 676,
+      "negative_cells": 7,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 1.0248901903367496
+    },
+    {
+      "window": "core",
+      "triplet": "B",
+      "product": "mrms",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 376,
+      "negative_cells": 306,
+      "unavailable_cells": 1,
+      "negative_percent_of_eligible_cells": 44.80234260614934
+    },
+    {
+      "window": "core",
+      "triplet": "B",
+      "product": "persiann_cdr",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 647,
+      "negative_cells": 36,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 5.270863836017569
+    },
+    {
+      "window": "expanded",
+      "triplet": "A",
+      "product": "conus404",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 683,
+      "negative_cells": 0,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 0.0
+    },
+    {
+      "window": "expanded",
+      "triplet": "A",
+      "product": "mrms",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 428,
+      "negative_cells": 255,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 37.33528550512445
+    },
+    {
+      "window": "expanded",
+      "triplet": "A",
+      "product": "persiann_cdr",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 661,
+      "negative_cells": 22,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 3.22108345534407
+    },
+    {
+      "window": "expanded",
+      "triplet": "B",
+      "product": "conus404ba",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 682,
+      "negative_cells": 1,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 0.14641288433382138
+    },
+    {
+      "window": "expanded",
+      "triplet": "B",
+      "product": "mrms",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 421,
+      "negative_cells": 262,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 38.3601756954612
+    },
+    {
+      "window": "expanded",
+      "triplet": "B",
+      "product": "persiann_cdr",
+      "sample_eligible_cells": 683,
+      "nonnegative_cells": 662,
+      "negative_cells": 21,
+      "unavailable_cells": 0,
+      "negative_percent_of_eligible_cells": 3.074670571010249
+    }
+  ],
+  "data": "S6_variance_sign_diagnostics/figure_data.csv",
+  "source_estimates_modified": false,
+  "png": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.png",
+  "tif": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.tif",
+  "pdf": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.pdf",
+  "svg": "S6_variance_sign_diagnostics/S6_variance_sign_diagnostics_600dpi.svg"
+}

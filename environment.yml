@@ -1,0 +1,32 @@
+name: tc-precip-collocation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2
+  - xarray>=2024.1
+  - netcdf4>=1.6
+  - matplotlib>=3.8
+  - pillow>=10
+  - shapely>=2
+  - pyproj>=3.6
+  - gdal>=3.7
+  - geopandas>=0.14
+  - fiona
+  - rasterio>=1.3
+  - rioxarray>=0.15
+  - pyshp>=2.3
+  - intake<2
+  - intake-xarray
+  - dask
+  - s3fs
+  - zarr<3
+  - numcodecs>=0.12
+  - eccodes
+  - cfgrib
+  - pytest>=8
+  - pip
+  - pip:
+      - -e .

@@ -1,0 +1,53 @@
+{
+  "figure": "S1_ec_error_correlation",
+  "id": "S1",
+  "title": "EC correlation between CONUS404 and CONUS404BA random errors",
+  "caption": "Figure S1. We estimated the correlation between CONUS404 and CONUS404BA random errors using four-product extended collocation (EC), with MRMS Radar-Only QPE and PERSIANN-CDR as the other inputs, for (a) core and (b) expanded event windows. The model permits nonzero CONUS404\u2013CONUS404BA error covariance and assumes the other error pairs are uncorrelated. Colors show random-error correlation, not precipitation correlation or latent-signal R\u00b2. We retained cells with admissible primary EC estimates and at least 90% admissible storm-block bootstrap draws. Gray denotes excluded study cells. A common linear 0\u20131 scale contains all displayed estimates; correlations can generally range from \u22121 to 1. Means use watershed-overlap fraction times cosine-latitude weights. The common grid is 0.25\u00b0 in EPSG:4326. Watershed boundaries are black and states are gray. WGS84 ruler scale bars are calibrated at 27.35\u00b0N; north symbols follow the main figures.",
+  "caption_md": "S1_ec_error_correlation/caption.md",
+  "metadata": "S1_ec_error_correlation/metadata.json",
+  "files": {
+    "png": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.png",
+    "tif": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.tif",
+    "pdf": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.pdf",
+    "svg": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.svg"
+  },
+  "preview": "S1_ec_error_correlation/preview.png",
+  "dpi": 600,
+  "font": "Times New Roman",
+  "figure_inches": [
+    16.0,
+    6.9
+  ],
+  "palette": [
+    "#A6611A",
+    "#DFC27D",
+    "#F5F5F5",
+    "#80CDC1",
+    "#238B78",
+    "#01665E"
+  ],
+  "statistics": [
+    {
+      "window": "core",
+      "cells": 527,
+      "coverage_percent": 70.80526341814193,
+      "weighted_mean": 0.9757243272498085,
+      "minimum": 0.2847573459148407,
+      "maximum": 0.9997972846031189
+    },
+    {
+      "window": "expanded",
+      "cells": 660,
+      "coverage_percent": 89.24568883886795,
+      "weighted_mean": 0.9763678692111133,
+      "minimum": 0.6020606756210327,
+      "maximum": 0.9998034238815308
+    }
+  ],
+  "data": "S1_ec_error_correlation/figure_data.csv",
+  "source_estimates_modified": false,
+  "png": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.png",
+  "tif": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.tif",
+  "pdf": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.pdf",
+  "svg": "S1_ec_error_correlation/S1_ec_error_correlation_600dpi.svg"
+}
