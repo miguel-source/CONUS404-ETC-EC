@@ -13,7 +13,7 @@ We provide the routines used to acquire, align, analyze, summarize, and plot our
 | Four-product EC | `run_gridded_extended_collocation.py` | We estimate the CONUS404–CONUS404BA correlated error block; other cross-error covariances are assumed zero. We retain raw and log1p analyses, storm-block bootstrap, and leave-one-storm-out outputs. MRMS/PERSIANN EC diagnostic variances average two supported triplet formulations; the separate triplet results below remain unaveraged. |
 | Separate TC/ETC triplets | `run_separate_triplet_error_maps.py` | We estimate error variance, error SD and latent squared correlation separately for CONUS404–MRMS–PERSIANN-CDR and CONUS404BA–MRMS–PERSIANN-CDR. We preserve negative algebraic estimates and full-triplet validity flags. |
 | Paired support and optional agreement diagnostics | `run_gridded_dataset_agreement.py` | We derive the paired model support from EC and bootstrap validity, and retain optional standardized-difference/tail diagnostics. These tail scores are not p-values or probabilities that a product is accurate. |
-| Direct daily bias and RMSE | `extract_direct_reference_agreement.py`; `create_daily_agreement_violins_600dpi.py` | We calculate temporal metrics at each pixel on matched, eligible data without EC/bootstrap screening, then area-average the pixel metrics. |
+| Direct daily bias and RMSE | `extract_direct_reference_agreement.py` | We calculate temporal metrics at each pixel on matched, eligible data without EC/bootstrap screening, then area-average the pixel metrics. |
 | GeoTIFF export | `export_gridded_results_to_geotiff.py` | We export stored grids and metadata without altering estimation or masks. |
 
 
