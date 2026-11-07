@@ -10,7 +10,6 @@ We recommend first creating the supplied environment and running the synthetic e
 ```bash
 conda env create -f environment.yml
 conda activate tc-precip-collocation
-python examples/run_synthetic.py
 python -m pytest tests
 ```
 
