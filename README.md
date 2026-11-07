@@ -2,8 +2,7 @@
 
 We provide the computational workflow accompanying our comparison of CONUS404, CONUS404BA, MRMS Radar-Only QPE, and PERSIANN-CDR during ten tropical cyclones from 2016 to 2022. We evaluated daily precipitation on the common 0.25-degree PERSIANN-CDR grid across 23 watershed domains.
 
-Our repository covers data acquisition, track-based event windows, conservative grid alignment, matched observations, separate TC/ETC triplets, four-product extended collocation (EC), storm-block bootstrap, leave-one-storm-out sensitivity, direct-reference agreement, and publication figures.
-
+Our repository covers data acquisition, track-based event windows, conservative grid alignment, matched observations, separate TC/ETC triplets, four-product extended collocation (EC), storm-block bootstrap, leave-one-storm-out sensitivity, and direct-reference agreement.
 ## Start with the reproducible example
 
 We recommend first creating the supplied environment and running the synthetic example. It does not download the precipitation archives or require our original file locations.
