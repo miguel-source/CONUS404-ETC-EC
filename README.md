@@ -62,6 +62,6 @@ We tested the portable numerical routines with synthetic cases and checked avail
 
 ## Reuse and citation
 
-We release our study-specific code under the [MIT license](LICENSE). Source datasets and third-party boundary products retain their own terms; see [Notice and attribution](NOTICE.md) and [Data attribution](DATA_LICENSES.md). We exclude credentials, personal storage paths, large raw archives, vendor runtimes, and proprietary basemap imagery.
+We release our study-specific code under the MIT license (This is a preliminary under revision version). Source datasets and third-party boundary products retain their own terms; see [Notice and attribution](NOTICE.md) and [Data attribution](DATA_LICENSES.md). We exclude credentials, personal storage paths, large raw archives, vendor runtimes, and proprietary basemap imagery.
 
 We credit Miguel Diaz as the repository author in `CITATION.cff`. We will add the public repository URL and archived release metadata when available. No software DOI has been assigned by this local package. We recommend archiving the eventual tagged GitHub release with a repository-preservation service and citing both that version and the accompanying paper.
