@@ -1,7 +1,7 @@
 """We estimate error moments using the same equations as our study scripts.
 
 These functions are copied from the archived study routines without changes
-to their numerical bodies. Input arrays contain sample covariance matrices.
+to their numerical composites. Input arrays contain sample covariance matrices.
 """
 
 from __future__ import annotations
