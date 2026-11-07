@@ -16,7 +16,7 @@ Each figure directory contains a 600 dpi PNG and LZW-compressed TIFF, a PDF and 
 
 ## Interpretation
 
-We estimate only the CONUS404–CONUS404BA error correlation in the specified four-product EC model. The other error-pair covariances are assumptions. The common-triplet subset and bootstrap-screened paired EC subset are different selection criteria; neither is assumed to be nested within the other. We compare dimensionless raw/log1p latent R² as a transformation sensitivity diagnostic, while recognizing that the transformations represent different latent signals. The stacked-bar percentages in S6 are cell-count percentages, not watershed-area percentages.
+We estimate only the CONUS404–CONUS404BA error correlation in the specified four-product EC model. The other error-pair covariances are assumed. The common-triplet subset and bootstrap-screened paired EC subset are different selection criteria. Neither is assumed to be embedded within the other. We compare dimensionless raw/log1p latent R² as a transformation sensitivity diagnostic in these preliminary supplemental figures. Results require pairing journal evaluation while recognizing that the transformations represent different latent signals. The stacked-bar percentages in S6 are cell-count percentages, not watershed-area percentages.
 
 ## Verification
 
