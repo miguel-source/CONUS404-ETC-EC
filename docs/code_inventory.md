@@ -17,8 +17,5 @@ We provide the routines used to acquire, align, analyze, summarize, and plot our
 | Numerical summaries | `extract_word_results_metrics.py` | We extract the paper-specific paired summaries and verify known spatial-support counts. This routine intentionally checks the original study and is not a generic new-event summary function. |
 | GeoTIFF export | `export_gridded_results_to_geotiff.py` | We export stored grids and metadata without altering estimation or masks. |
 
-## Publication and supplemental
-
-We retain the final brown–cream–green triplet figures in together with their historical metadata-producing dependencies. We retain paired uncertainty and leave-one-storm-out figures in `create_paired_bootstrap_categories_600dpi.py` and `create_paired_loso_600dpi.py`. `build_word_primary_figures.py` supplies shared definitions for those plots. These historical reproduction scripts include explicit checks for the original study's counts and means.
 
 
