@@ -1,4 +1,4 @@
-"""We expose single-layer boundary files for unambiguous workflow inputs."""
+"""Single-layer boundary files for unambiguous workflow inputs."""
 from __future__ import annotations
 import argparse
 from pathlib import Path
