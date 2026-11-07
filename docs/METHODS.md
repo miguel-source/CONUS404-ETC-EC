@@ -83,6 +83,8 @@ We used raw precipitation as the primary analysis and log1p(P) as a sensitivity 
 
 ## Method references
 
-- McColl et al. (2014), Extended triple collocation: https://doi.org/10.1002/2014GL061322
-- Gruber et al. (2016), Extended collocation and error cross-correlations: https://doi.org/10.1002/2015JD024027
-- Yilmaz and Crow (2014), Collocation assumptions: https://doi.org/10.1175/JHM-D-13-0158.1
+- McColl, K. A., Vogelzang, J., Konings, A. G., Entekhabi, D., Piles, M., & Stoffelen, A. (2014). Extended triple collocation: Estimating errors and correlation coefficients with respect to an unknown target. Geophysical Research Letters, 41(17), 6229–6236. https://doi.org/10.1002/2014GL061322
+- Doore, K. J., Over, T. M., Hodson, T. O., & Foks, S. S. (2024). Workflow Notebooks for Evaluat-ing the Statistical Agreement between Gridded Evapotranspiration Data Sets in the Conter-minous United States via Triple Collocation. U.S. Geological Survey. https://doi.org/10.5066/P1VN9ENA
+- Gruber, A., Su, C. ‐H., Crow, W. T., Zwieback, S., Dorigo, W. A., & Wagner, W. (2016). Esti-mating error cross‐correlations in soil moisture data sets using extended collocation analysis. Journal of Geophysical Research: Atmospheres, 121(3), 1208–1219. https://doi.org/10.1002/2015JD024027
+- Gruber, A., Su, C.-H., Zwieback, S., Crow, W., Dorigo, W., & Wagner, W. (2016). Recent ad-vances in (soil moisture) triple collocation analysis. International Journal of Applied Earth Observation and Geoinformation, 45, 200–211. https://doi.org/10.1016/j.jag.2015.09.002
+- Yilmaz, M. T., & Crow, W. T. (2014). Evaluation of Assumptions in Soil Moisture Triple Collo-cation Analysis. Journal of Hydrometeorology, 15(3), 1293–1302. https://doi.org/10.1175/JHM-D-13-0158.1
