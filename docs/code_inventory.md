@@ -14,7 +14,6 @@ We provide the routines used to acquire, align, analyze, summarize, and plot our
 | Separate TC/ETC triplets | `run_separate_triplet_error_maps.py` | We estimate error variance, error SD and latent squared correlation separately for CONUS404–MRMS–PERSIANN-CDR and CONUS404BA–MRMS–PERSIANN-CDR. We preserve negative algebraic estimates and full-triplet validity flags. |
 | Paired support and optional agreement diagnostics | `run_gridded_dataset_agreement.py` | We derive the paired model support from EC and bootstrap validity, and retain optional standardized-difference/tail diagnostics. These tail scores are not p-values or probabilities that a product is accurate. |
 | Direct daily bias and RMSE | `extract_direct_reference_agreement.py`; `create_daily_agreement_violins_600dpi.py` | We calculate temporal metrics at each pixel on matched, eligible data without EC/bootstrap screening, then area-average the pixel metrics. |
-| Numerical summaries | `extract_word_results_metrics.py` | We extract the paper-specific paired summaries and verify known spatial-support counts. This routine intentionally checks the original study and is not a generic new-event summary function. |
 | GeoTIFF export | `export_gridded_results_to_geotiff.py` | We export stored grids and metadata without altering estimation or masks. |
 
 
