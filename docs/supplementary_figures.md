@@ -1,6 +1,6 @@
 # Supplemental figures
 
-We prepared six supporting figures using the same Times New Roman typography, brown-to-green palette, continuous axes, and 600 dpi export settings as the main figures. Geographic panels include our north symbol and thin WGS84 ruler scale bar, calibrated at 27.35°N. We used saved estimates and did not rerun collocation or bootstrap sampling when making these figures.
+We prepared six supporting figures using geographic panels, including our north symbol and thin WGS84 ruler scale bar, calibrated at 27.35°N. We used saved estimates and did not rerun collocation or bootstrap sampling when making these figures.
 
 | Figure | Purpose |
 | --- | --- |
