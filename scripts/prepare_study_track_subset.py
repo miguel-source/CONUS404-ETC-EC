@@ -1,4 +1,4 @@
-"""We retain complete HURDAT2 records for the ten storms in our study."""
+
 from __future__ import annotations
 import argparse
 import hashlib
