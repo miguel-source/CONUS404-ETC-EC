@@ -11,7 +11,7 @@ We prepared six supporting figures using geographic panels, including our north 
 | S5 | Storm calendar-window sampling and the duplicate-date policy |
 | S6 | Nonnegative, negative, and unavailable variance estimates in the separate triplets |
 
-Each figure directory contains a 600 dpi PNG and LZW-compressed TIFF, a PDF and editable SVG, a lower-resolution preview, a caption, metadata, and a CSV table of the plotted values or counts. The TIFFs are publication figures, not georeferenced data rasters. The combined `manifest.json` records the source checksums, figure paths, and numerical summaries; `captions.md` collects the captions in manuscript order.
+Each figure directory contains a 600 dpi PNG and LZW-compressed TIFF, a PDF and editable SVG, a lower-resolution preview, a caption and metadata. 
 
 
 ## Interpretation
