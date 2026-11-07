@@ -46,11 +46,10 @@ We describe the scientific choices and equations in [Computational methods](docs
 
 ## Quantities and spatial subsets
 
-We distinguish TC/ETC random-error variance and SD from direct RMSE against another product. ETC latent R2 describes estimated squared correlation with an unknown precipitation signal. Four-product EC additionally estimates the CONUS404-CONUS404BA error covariance; it does not independently identify all six error correlations among the four products.
+We distinguish TC/ETC random-error variance and SD from direct RMSE against another product. ETC latent R2 describes estimated squared correlation with an unknown precipitation signal. Four-product EC additionally estimates the CONUS404-CONUS404BA error covariance. It does not independently identify all six error correlations among the four products.
 
-Our final `all_windows` sample contains 78 unique core days and 127 expanded days. It pools the selected calendar windows at each watershed cell; it does not imply that each storm affected every cell. We required at least eight contributing storms, three matched days per contributing storm, and 60 core or 100 expanded observations.
+Our final `all_windows` sample contains 78 unique core days and 127 expanded days.
 
-We retain the masks needed to distinguish 683 sample-eligible cells, 527/660 cells in the retained paired EC comparison, and 314/382 common admissible triplet cells for core/expanded windows. Product-specific maps use their stated validity criteria. These summaries answer different questions and should not be combined as if they used an identical spatial subset.
 
 ## Supplemental material
 
