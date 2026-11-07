@@ -334,11 +334,6 @@ def _write_arcgis_guides(export_root: Path) -> tuple[Path, Path]:
    continuous estimate. EC primary results use valid_primary_ec. Diagnostic
    reference-product maps also require reference_diagnostics_valid. Agreement
    outputs use valid_agreement.
-4. Use ArcGIS_symbology_guide.csv for recommended renderer types and ranges.
-5. For a publication layout like the supplied example, use a full-CONUS map
-   frame plus regional inset map frames. Do not stretch the hurricane raster
-   to the Pacific Northwest: its actual extent is -104 to -72.75 longitude
-   and 26.75 to 44.25 latitude.
 
 GeoTIFF filenames encode every nonspatial selector. The complete mapping to
 source NetCDF, variable, selectors, units, range, and NoData is in
