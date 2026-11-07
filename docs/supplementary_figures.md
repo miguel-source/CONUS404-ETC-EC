@@ -13,36 +13,6 @@ We prepared six supporting figures using geographic panels, including our north 
 
 Each figure directory contains a 600 dpi PNG and LZW-compressed TIFF, a PDF and editable SVG, a lower-resolution preview, a caption, metadata, and a CSV table of the plotted values or counts. The TIFFs are publication figures, not georeferenced data rasters. The combined `manifest.json` records the source checksums, figure paths, and numerical summaries; `captions.md` collects the captions in manuscript order.
 
-## Reproduce the figures
-
-We provide the standalone code in `source/create_supplementary_figures.py` with its `brown_green_cartography.py` helper. The repository also includes both in `scripts/`. The plotting routine requires Python 3.11 or newer, NumPy, Matplotlib, netCDF4, Pillow, Shapely 2, pyproj, and SciPy. Times New Roman must be installed to reproduce the exact publication typography; we do not redistribute font files.
-
-We included compact, derived figure inputs in the repository so readers can reproduce all six figures without obtaining the original NetCDF files or rerunning inference:
-
-```bash
-python scripts/create_supplementary_figures.py --input-bundle data/figure_inputs --output results/supplementary
-```
-
-The input bundle contains only the saved fields needed for these figures, plus the geographic boundary layers. It does not contain the full precipitation archive. We store numeric and text arrays in compressed NPZ files with `allow_pickle=False`; dimension and date-unit metadata are retained. Original NetCDF checksums link the bundle to the study estimates. The plotting routine checks bundle checksums before reading.
-
-Times New Roman is the default. On systems without that font, select an installed alternative explicitly, for example `--font "Liberation Serif"`, or set the `TC_PRECIP_FONT` environment variable. The resulting metadata record the requested font family. Exact publication reproduction uses Times New Roman.
-
-To regenerate from the original saved analysis NetCDF files instead, run the following command from the repository root. Replace the example paths with the corresponding files on your computer. Each triplet has its own directory even though the raw/log NetCDF basenames are shared.
-
-```bash
-python scripts/create_supplementary_figures.py \
-  --ec results/gridded_extended_collocation_all_windows.nc \
-  --agreement results/gridded_dataset_agreement.nc \
-  --daily data/processed/hurricane_daily_all4_persiann_grid.nc \
-  --triplet-a-raw results/triplet_a/triplet_error_estimates_raw.nc \
-  --triplet-b-raw results/triplet_b/triplet_error_estimates_raw.nc \
-  --triplet-a-log results/triplet_a/triplet_error_estimates_log1p.nc \
-  --triplet-b-log results/triplet_b/triplet_error_estimates_log1p.nc \
-  --boundaries data/boundaries/map_boundaries.gpkg \
-  --output results/supplementary
-```
-
-The GeoPackage must provide `conus_states`, `conus_boundary`, and `watersheds_hurricane_analysis` layers in EPSG:4326. This figure routine reproduces our 23-watershed, 683-center-selected-cell study; the statistical routines elsewhere in the repository provide the reusable analysis workflow.
 
 ## Interpretation
 
