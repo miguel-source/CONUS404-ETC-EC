@@ -1,6 +1,6 @@
-"""Read-only direct daily discrepancies on the broad, matched study support.
+"""Read-only direct daily discrepancies.
 
-No collocation admissibility or bootstrap screen is imposed. Positive bias
+Positive bias
 means the CONUS404 product is wetter than the stated reference.
 """
 
