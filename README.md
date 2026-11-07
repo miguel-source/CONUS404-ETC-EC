@@ -54,26 +54,12 @@ We retain the masks needed to distinguish 683 sample-eligible cells, 527/660 cel
 
 ## Supplemental material
 
-We provide the supplement's figure-generation routine, figure-ready data, captions, and provenance with the release. We use the same Times New Roman typography, brown-to-green palette, 600-dpi raster exports, and vector map adornments as the main figures. Geographic panels include the thin mile scale and north symbol. The supplemental index explains the mask and units of every figure.
+We provide the supplement's figure-generation routine, figure-ready data, captions, and provenance with the release. 
 
-We can redraw all six supporting figures without the original NetCDF inputs:
-
-```bash
-python scripts/create_supplementary_figures.py --input-bundle data/figure_inputs --output results/supplementary
-```
-
-Exact publication typography requires an installed Times New Roman font. On other systems we can supply an installed alternative, for example `--font "Liberation Serif"`. We do not redistribute Microsoft font files. We describe the figure data and verification in [Supplemental figures](docs/supplementary_figures.md).
-
-To assemble the vector figures and captions into a review PDF, we install the optional publishing dependencies and run:
-
-```bash
-pip install -e ".[publishing]"
-python tools/build_appendix_pdf.py --root results/supplementary --output results/supplementary_figures_review.pdf
-```
 
 ## Scope of verification
 
-We tested the portable numerical routines with synthetic cases and checked available study results against stored benchmarks. We did not repeat the full native-data acquisition and 5,000-replicate ten-storm calculation during packaging. New downloads can differ when upstream archives or catalogs have been revised. The verification report records which commands were actually run.
+We tested the portable numerical routines with synthetic cases and checked available study results against stored benchmarks. We did not repeat the full native-data acquisition and 5,000-replicate ten-storm calculation in this repository. New downloads can differ when upstream archives or catalogs have been revised. The verification report records which commands were actually run.
 
 ## Reuse and citation
 
