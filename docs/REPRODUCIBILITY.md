@@ -8,11 +8,11 @@ We ran thirteen automated tests covering known TC/EC covariance moments, the ide
 
 We also ran the synthetic ten-storm gridded example, including EC, 64 bootstrap replicates, and leave-one-storm-out estimates. We use 64 draws only for this quick numerical example; our observational study used 5,000 draws with seed 404.
 
-An independent abstract-syntax-tree comparison confirmed that the copied EC, dataset-agreement, gridded-preparation, and shared preparation functions preserve the original scientific routines. The separate-triplet changes specify the NetCDF backend without changing its formulas or masks. We record the original and portable script hashes in `provenance/source_inventory.json`; changes made for portability are described in the inventory.
+An independent abstract-syntax-tree comparison confirmed that the copied EC, dataset-agreement, gridded-preparation, and shared preparation functions preserve the original scientific routines. The separate-triplet changes specify the NetCDF backend without changing its formulas or masks.
 
 We reran the portable direct-reference routine on the available aligned observational archive. All eight bias and RMSE summaries matched the saved study benchmarks exactly. We also reproduced its 683-cell coverage, 78 core dates, 127 expanded dates, and removal of one duplicate expanded date.
 
-For the supplemental figures, we checked grid alignment, source-file content hashes, paired-selection masks, the identity of error correlation with covariance divided by the two error SDs, common raw/log subsets, negative-variance counts, raster dimensions, 600-dpi metadata, and text placement. We visually reviewed all six figures and the assembled appendix PDF. An offline redraw from the compact input bundle reproduced every figure's summary statistics and plotted CSV bytes exactly. We did not recompute inference to draw these figures.
+For the supplemental figures, we checked grid alignment, source-file content hashes, paired-selection masks, the identity of error correlation with covariance divided by the two error SDs, common raw/log subsets, negative-variance counts, raster dimensions, 600-dpi metadata, and text placement. We visually reviewed all six figures.
 
 ## Observational benchmarks
 
